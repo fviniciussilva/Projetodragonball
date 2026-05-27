@@ -34,6 +34,27 @@
             </div>
         </div>
         <div class="personagem">
+    <picture>
+        <source srcset="./src/imagens/bg-hexblade.png" media="(min-width: 768px)" />
+        <img class="imagem" src="./src/imagens/bg-hexblade-mobile.png" alt="Personagem HexBlade" />
+    </picture>
+    
+    <div class="conteudo">
+        <h2 class="nome-personagem">RYOBLAKA (HEXBLADE)</h2>
+        <p class="descricao">
+            Ryo Tanaka, o 'HexBlade', não apenas quebra firewalls; ele é o arquiteto do seu inventário. 
+            Usando algoritmos de busca quântica, ele vascullha as sombras do ciberespaço para localizar 
+            e validar cada componente essencial de hardware e software em tempo real.
+        </p>
+
+        <div id="buscador-hexblade" style="margin-top: 20px; border: 1px solid #333; padding: 10px;">
+            <input type="text" id="msg" placeholder="Código ou nome do item...">
+            <button onclick="consultar()">BUSCAR NO CIBERESPAÇO</button>
+            <p id="resp" style="margin-top: 10px; font-weight: bold;">Aguardando comando...</p>
+        </div>
+    </div>
+</div>
+        <div class="personagem">
             <picture>
                 <source srcset="./src/imagens/bg-codepixie.png" media="(min-width: 768px)" />
                 <img class="imagem" src="./src/imagens/bg-codepixie-mobile.png" alt="Personagem CodePixie" />
